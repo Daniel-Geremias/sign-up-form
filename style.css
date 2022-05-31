@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+}
+
+.logo-section {
+    background: url("elia-pellegrini-i1dTcr82Lv0-unsplash.jpg") ;
+}
+
+.logo-strip {
+    background-color: #0000004d;
+}
