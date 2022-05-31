@@ -73,8 +73,9 @@ input {
     border-radius: 5px;
 }
 
-input::target-text {
+input:focus {
     border: 1px solid blue;
+    box-shadow: 1px 1px 1px #242424;
 }
 
 button {
@@ -93,5 +94,4 @@ button:hover {
 
 a {
     color: #3b2424;
-    
 }
