@@ -1,15 +1,97 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
 body {
     margin: 0px;
 }
 
 .container {
     display: flex;
+    align-items: center;
 }
 
 .logo-section {
-    background: url("elia-pellegrini-i1dTcr82Lv0-unsplash.jpg") ;
+    min-width: 600px;
+    height: 100vh;
+    background: url("elia-pellegrini-i1dTcr82Lv0-unsplash.jpg");
+    background-size: cover;
 }
 
 .logo-strip {
-    background-color: #0000004d;
+    background-color: #ffffff21;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.logo-strip img {
+    width: 40px;
+}
+
+.logo-strip h1 {
+    font-family: "Secular One", sans-serif;
+}
+
+.form-section {
+    align-content: center;
+}
+
+.form-section p,button {
+    margin: 30px;
+}
+
+.input-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    margin: 40px 0px;
+    box-shadow: 0px 3px 5px #242424;
+}
+
+.input-section p {
+    grid-column: span 2;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px 0px 0px;
+}
+
+label {
+    color: #242424;
+    font-size: 12px;
+}
+
+input {
+    height: 30px;
+    border: 1px solid #5f5f5f ;
+    border-radius: 5px;
+}
+
+input::target-text {
+    border: 1px solid blue;
+}
+
+button {
+    background-color: #3b2424;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    width: 160px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: #311e1e;
+}
+
+a {
+    color: #3b2424;
+    
 }
